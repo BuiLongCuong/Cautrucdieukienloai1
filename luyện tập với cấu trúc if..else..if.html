@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let data=prompt("Mời bạn nhập tên");
+    if(data=="Admin"){
+        let value=prompt("Hãy nhập mật khẩu");
+            if (value=="TheMaster"){
+                alert("Welcome.");
+        }else if(value == "null"){
+                alert("Canceled.");
+            }else {
+                alert("Wrong password. ");
+            }
+    }else if(data == "null"){
+        alert("canceld");
+    }else {
+        alert("I don’t know you")
+    }
+
+</script>
+</body>
+</html>
